@@ -14,7 +14,7 @@
 	<!-- 定义Maven项目当前所处的版本,SNAPSHOT表示开发版本,RELEASE表示稳定的发布版本 -->
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>spring-mvc Maven Webapp</name>
+	<name>guess Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<!-- 集中定义版本,便于修改 -->
@@ -257,7 +257,7 @@
 
 	<build>
 		<!-- 构建结果的最终名字 -->
-		<finalName>spring-mvc</finalName>
+		<finalName>guess</finalName>
 
 		<!-- 声明于父类项目之中,子项目只需要使用plugins声明，而不需要具体指定版本就可以沿用 -->
 		<pluginManagement>
